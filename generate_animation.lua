@@ -28,7 +28,7 @@ print'_type.lua was created'
 
 for i = 1, file_amount do
 	local mesh = io.open(__path .. 'output\\' .. i .. '.lua', 'w')
-	mesh:write('meshes=return\'/dynamic/' .. __animation_path .. '_.lua\'(' .. i - 1 .. ')')
+	mesh:write('meshes=require\'/dynamic/' .. __animation_path .. '_.lua\'(' .. i - 1 .. ')')
 	mesh:close()
 end
 

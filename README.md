@@ -1,3 +1,4 @@
+### Won't be developed anymore, as `PPLAF` will be replaced by [ppol](https://github.com/glebi574/pewpew-overhaul-lite) and [ppo](https://github.com/glebi574/pewpew-overhaul).
 # PPLAF-animation-generator
 PPLAF-animation-generator is used to create animations, that consist of multiple files in the way, PPLAF `animation` lib can use them.
 
